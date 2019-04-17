@@ -1,0 +1,123 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=332367119
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[Interrupts]
+Enabled=1
+[MemConfig]
+Base=1
+Manual=0
+Ddf=1
+TypeViol=0
+Stop=1
+[Simulator]
+Freq=10000000
+MultiCoreRunAll=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=168000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=84
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[struct_types]
+Fmt0=struct PVSConfig-CRC16	4	0
+Fmt1=struct PVSConfig-VersPVS	4	0
+[array_types]
+Fmt0=uint16_t[2]	4	0
+[watch_formats]
+Fmt0={W}0:AAA	4	0
+Fmt1={W}0:NBytes	3	0
+Fmt2={W}0:NRegs	4	0
+Fmt3={W}0:SectorNumber	4	0
+Fmt4={W}0:data	4	0
+Fmt5={W}0:dwCRC32	4	0
+Fmt6={W}0:index	3	0
+Fmt7={W}0:pDataFlash	4	0
+Fmt8={W}0:sPVSConfig.CRC16	4	0
+Fmt9={W}0:sPVSState.CRC32	4	0
+Fmt10={W}0:tmp16	4	0
+Fmt11={W}0:tmp32	4	0
+Fmt12={W}0:ucInBufRS485	0	2
+Fmt13={W}0:ucNBytes	3	0
+Fmt14={W}0:uiBeat	4	0
+Fmt15={W}0:uiTmp	3	0
+Fmt16={W}0:uiTmp1	4	0
+Fmt17={W}0:uiTmp2	4	0
+Fmt18={W}0:uiTmp3	3	0
+Fmt19={W}0:wCRC16	4	0
+Fmt20={W}0:wCRC16test	4	0
+Fmt21={W}0:wCnt	3	0
+Fmt22={W}0:wInd	4	0
+Fmt23={W}0:wRegVal	4	0
+Fmt24={W}0:wStAddr	3	0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "D:\Projects\Energoatom-2\PVT_Final\IAR_PVS\IAR_STM\startup_stm32f4xx.s" ""
+Count=1
+SuppressDialog=0
